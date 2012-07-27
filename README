@@ -1,0 +1,27 @@
+This is Perl module Nephia::View::TT.
+
+INSTALLATION
+
+Nephia::View::TT installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan Nephia::View::TT
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+Nephia::View::TT documentation is available as in POD. So you can do:
+
+    % perldoc Nephia::View::TT
+
+to read the documentation online with your favorite pager.
+
+ytnobody
