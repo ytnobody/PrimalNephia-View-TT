@@ -42,6 +42,10 @@ Nephia::View::TT - Template for Nephia
 
 Nephia::View::TT is view class for Nephia. It provides template feature as Template.pm.
 
+=head1 USING IN SETUP
+
+  nephia-setup Your::AppName --flavor View::TT
+
 =head1 AUTHOR
 
 ytnobody E<lt>ytnobody@gmail.comE<gt>
