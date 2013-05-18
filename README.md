@@ -4,12 +4,7 @@ Nephia::View::TT - Template for Nephia
 
 # SYNOPSIS
 
-    ### in your app class ...
-    package MyApp;
-    use Nephia;
-    
-
-    ### and, in etc/conf/common.pl ...
+    ### in etc/conf/common.pl ...
     +{
         view => {
             class => 'TT',
