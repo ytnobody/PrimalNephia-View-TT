@@ -9,13 +9,15 @@ Nephia::View::TT - Template for Nephia
     use Nephia;
     
 
-    ### and your app.psgi ...
-    use MyApp;
-    MyApp->run( view => {
-        class => 'TT',
-        TEMPLATE_PATH => [ ... ],
-        EVAL_PERL => 1,
-    } );
+    ### and, in etc/conf/common.pl ...
+    +{
+        view => {
+            class => 'TT',
+            TEMPLATE_PATH => [ ... ],
+            EVAL_PERL => 0,
+        },
+        ...
+    }
 
 # DESCRIPTION
 
