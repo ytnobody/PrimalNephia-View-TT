@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Nephia;
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 path '/' => sub {
     return {

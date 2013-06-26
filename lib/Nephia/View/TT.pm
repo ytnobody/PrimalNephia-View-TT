@@ -2,7 +2,7 @@ package Nephia::View::TT;
 use strict;
 use warnings;
 use parent 'Template';
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub new {
     my ( $class, %opts ) = @_;

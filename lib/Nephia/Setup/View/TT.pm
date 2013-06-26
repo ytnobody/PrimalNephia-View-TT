@@ -4,7 +4,6 @@ use warnings;
 use parent qw( Nephia::Setup::Base );
 use File::Spec;
 
-use Data::Dumper;
 sub new {
     my $class = shift;
     my $self = $class->SUPER::new(@_);
@@ -34,7 +33,7 @@ use strict;
 use warnings;
 use Nephia;
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 path '/' => sub {
     my $req = shift;
