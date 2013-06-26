@@ -2,6 +2,9 @@ Revision history for Perl extension Nephia::View::TT
 
 {{$NEXT}}
 
+0.03 2013-06-26T15:15:53Z
+        - compliant to meta-template
+
 0.02 2013-06-07T15:51:47Z
         - stop using Path::Class feature
 
