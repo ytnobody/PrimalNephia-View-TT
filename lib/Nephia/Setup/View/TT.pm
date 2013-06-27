@@ -1,18 +1,16 @@
 package Nephia::Setup::View::TT;
 use strict;
 use warnings;
-use parent qw( Nephia::Setup::Base );
 use File::Spec;
 
-sub new {
-    my $class = shift;
-    my $self = $class->SUPER::new(@_);
-    my $meta = $self->meta_template;
+sub on_load {
+    my ($class, $setup) = @_;
+    my $meta = $setup->meta_template;
     $meta->replace_table([]);
     $meta->tag('[% ... %]');
     $meta->arrow('.');
     $meta->argument('...');
-    return $self;
+    return $setup;
 }
 
 sub index_template_file {
@@ -33,7 +31,7 @@ use strict;
 use warnings;
 use Nephia;
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 path '/' => sub {
     my $req = shift;

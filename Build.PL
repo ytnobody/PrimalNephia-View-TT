@@ -25,7 +25,7 @@ my %args = (
 
     name            => 'Nephia-View-TT',
     module_name     => 'Nephia::View::TT',
-    allow_pureperl => 0,
+    allow_pure_perl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],
 
