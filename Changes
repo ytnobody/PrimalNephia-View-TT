@@ -1,6 +1,8 @@
 Revision history for Perl extension Nephia::View::TT
 
 {{$NEXT}}
+
+0.06 2013-07-06T17:08:52Z
         - refactor : use trigger "required_modules"
 
 0.05 2013-06-27T07:16:06Z
