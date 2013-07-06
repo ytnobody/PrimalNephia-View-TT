@@ -1,6 +1,7 @@
 Revision history for Perl extension Nephia::View::TT
 
 {{$NEXT}}
+        - refactor : use trigger "required_modules"
 
 0.05 2013-06-27T07:16:06Z
         - become isn't "Nephia::Setup::Base"
