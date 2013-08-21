@@ -1,4 +1,4 @@
-requires 'Nephia';
+requires 'PrimalNephia';
 requires 'Template';
 requires 'File::Spec';
 

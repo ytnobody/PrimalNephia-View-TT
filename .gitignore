@@ -9,7 +9,7 @@ Makefile.old
 nytprof.out
 MANIFEST.bak
 *.sw[po]
-/Nephia-View-TT-*
+/PrimalNephia-View-TT-*
 /.build
 /_build_params
 /Build

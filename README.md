@@ -1,6 +1,6 @@
 # NAME
 
-Nephia::View::TT - Template for Nephia
+PrimalNephia::View::TT - Template for PrimalNephia
 
 # SYNOPSIS
 
@@ -16,11 +16,11 @@ Nephia::View::TT - Template for Nephia
 
 # DESCRIPTION
 
-Nephia::View::TT is view class for Nephia. It provides template feature as Template.pm.
+PrimalNephia::View::TT is view class for PrimalNephia. It provides template feature as Template.pm.
 
 # USING IN SETUP
 
-    nephia-setup Your::AppName --flavor View::TT
+    primalnephia-setup Your::AppName --flavor View::TT
 
 # AUTHOR
 

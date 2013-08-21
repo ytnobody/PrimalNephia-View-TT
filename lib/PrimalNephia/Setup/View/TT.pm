@@ -1,4 +1,4 @@
-package Nephia::Setup::View::TT;
+package PrimalNephia::Setup::View::TT;
 use strict;
 use warnings;
 use File::Spec;
@@ -21,7 +21,7 @@ sub index_template_file {
 }
 
 sub required_modules {
-    'Nephia::View::TT' => '0',
+    'PrimalNephia::View::TT' => '0',
 }
 
 1;
@@ -33,7 +33,7 @@ app_class_file
 package $appname;
 use strict;
 use warnings;
-use Nephia;
+use PrimalNephia;
 
 our $VERSION = 0.06;
 
@@ -59,7 +59,7 @@ $appname - Web Application
 
 :::head1 DESCRIPTION
 
-$appname is web application based Nephia.
+$appname is web application based PrimalNephia.
 
 :::head1 AUTHOR
 
@@ -67,9 +67,9 @@ clever guy
 
 :::head1 SEE ALSO
 
-Nephia
+PrimalNephia
 
-Nephia::View::TT
+PrimalNephia::View::TT
 
 :::head1 LICENSE
 

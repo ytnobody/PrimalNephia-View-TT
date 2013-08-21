@@ -1,4 +1,4 @@
 use strict;
 use Test::More tests => 1;
 
-BEGIN { use_ok 'Nephia::View::TT' }
+BEGIN { use_ok 'PrimalNephia::View::TT' }

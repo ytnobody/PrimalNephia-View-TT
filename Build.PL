@@ -23,11 +23,12 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'Nephia-View-TT',
-    module_name     => 'Nephia::View::TT',
+    name            => 'PrimalNephia-View-TT',
+    module_name     => 'PrimalNephia::View::TT',
     allow_pureperl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],
+    c_source     => [qw()],
 
     test_files           => ((-d '.git' || $ENV{RELEASE_TESTING}) && -d 'xt') ? 't/ xt/' : 't/',
     recursive_test_files => 1,

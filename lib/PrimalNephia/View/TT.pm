@@ -1,4 +1,4 @@
-package Nephia::View::TT;
+package PrimalNephia::View::TT;
 use strict;
 use warnings;
 use parent 'Template';
@@ -22,7 +22,7 @@ __END__
 
 =head1 NAME
 
-Nephia::View::TT - Template for Nephia
+PrimalNephia::View::TT - Template for PrimalNephia
 
 =head1 SYNOPSIS
 
@@ -38,11 +38,11 @@ Nephia::View::TT - Template for Nephia
 
 =head1 DESCRIPTION
 
-Nephia::View::TT is view class for Nephia. It provides template feature as Template.pm.
+PrimalNephia::View::TT is view class for PrimalNephia. It provides template feature as Template.pm.
 
 =head1 USING IN SETUP
 
-  nephia-setup Your::AppName --flavor View::TT
+  primalnephia-setup Your::AppName --flavor View::TT
 
 =head1 AUTHOR
 

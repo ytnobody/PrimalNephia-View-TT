@@ -1,7 +1,7 @@
 package MyApp;
 use strict;
 use warnings;
-use Nephia;
+use PrimalNephia;
 
 our $VERSION = 0.06;
 
@@ -25,7 +25,7 @@ MyApp - Web Application
 
 =head1 DESCRIPTION
 
-MyApp is web application based Nephia.
+MyApp is web application based PrimalNephia.
 
 =head1 AUTHOR
 
@@ -33,7 +33,7 @@ clever guy
 
 =head1 SEE ALSO
 
-Nephia
+PrimalNephia
 
 =head1 LICENSE
 

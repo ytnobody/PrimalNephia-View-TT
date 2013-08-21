@@ -1,10 +1,10 @@
 {
-   "abstract" : "Template for Nephia",
+   "abstract" : "Template for PrimalNephia",
    "author" : [
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Minilla/v0.5.5, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Nephia-View-TT",
+   "name" : "PrimalNephia-View-TT",
    "no_index" : {
       "directory" : [
          "t",
@@ -51,7 +51,7 @@
       "runtime" : {
          "requires" : {
             "File::Spec" : "0",
-            "Nephia" : "0",
+            "PrimalNephia" : "0",
             "Template" : "0"
          }
       }
@@ -59,13 +59,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ytnobody/Nephia-View-TT/issues"
+         "web" : "https://github.com/ytnobody/PrimalNephia-View-TT/issues"
       },
-      "homepage" : "https://github.com/ytnobody/Nephia-View-TT",
+      "homepage" : "https://github.com/ytnobody/PrimalNephia-View-TT",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ytnobody/Nephia-View-TT.git",
-         "web" : "https://github.com/ytnobody/Nephia-View-TT"
+         "url" : "git://github.com/ytnobody/PrimalNephia-View-TT.git",
+         "web" : "https://github.com/ytnobody/PrimalNephia-View-TT"
       }
    },
    "version" : "0.06",
